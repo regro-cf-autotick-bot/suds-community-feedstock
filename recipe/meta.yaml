@@ -1,5 +1,5 @@
 {% set name = "suds-community" %}
-{% set version = "0.8.5" %}
+{% set version = "1.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6412d45027bc8e85f96749470598eafaecf368093467d2f2d5afa2e6dd953140
+  sha256: 040f16eda0d03b389ade69ca32e6c06a8dfa3b16a759c998e30357758e747131
 
 build:
   number: 0
